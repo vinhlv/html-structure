@@ -1,0 +1,26 @@
+.btn-default-blue {
+  color: #fff;
+  background: #0c7cd5;
+  border-color: #0b76cc;
+  border-radius: 2px;
+  box-shadow: none;
+  text-shadow: none;
+  &:focus, &:hover, &:active, &:active:focus {
+    color: #fff;
+    background: #0c84e4;
+    border-color: #0c84e4;
+  }
+}
+.btn-default-transparent {
+  color: #fff;
+  background: none;
+  border-color: #fff;
+  border-radius: 2px;
+  box-shadow: none;
+  text-shadow: none;
+  &:focus, &:hover, &:active, &:active:focus {
+    color: #fff;
+    background: transparent;
+    border-color: #fff;
+  }
+}
